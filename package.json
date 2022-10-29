@@ -4,7 +4,8 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "build": "tailwindcss build -i src/main.css -o public/styles.css --watch"
+    "build": "tailwindcss build -i src/main.css -o public/styles.css",
+    "dev": "tailwindcss build -i src/main.css -o public/styles.css --watch"
   },
   "devDependencies": {
     "postcss": "^8.4.18",
